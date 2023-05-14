@@ -1,0 +1,72 @@
+.v-card__reveal {
+  bottom: 0 !important;
+  opacity: 1 !important;
+  position: absolute !important;
+  width: 100% !important;
+}
+
+
+.home{
+  &__row{
+    padding: 30px !important;
+  }
+
+  &__logo{
+    border-radius: 50% ;
+    max-width: 20% !important;
+    max-height: 20% !important;
+    margin-bottom: -1rem !important;
+
+    &-header{
+      border-radius: 50%;
+      max-width: 3rem !important;
+      max-height: 4rem !important;
+    }
+
+    &-mini{
+      border-radius: 20% ;
+      max-width: 100% !important;
+      max-height: 100% !important;
+    }
+  }
+
+  &__card{
+    border-radius: 10px !important;
+
+    &-title {
+      &-span{
+        color: cornflowerblue;
+
+        &-bold{
+          font-weight: bold;
+        }
+      }
+
+      &-about{
+        font-weight: bolder !important;
+      }
+
+      &-text{
+        font-size: 1.1rem !important;
+      }
+
+      &-icon{
+        text-decoration: none;
+        color: #6495ed !important;
+      }
+
+      &-link{
+        text-decoration: none;
+        color: #6495ed !important;
+
+        &:hover{
+          border-bottom: 1px solid #6495ed;
+        }
+      }
+    }
+
+    &-body{
+      padding: 20px !important;
+    }
+  }
+}

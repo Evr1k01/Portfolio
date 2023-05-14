@@ -1,0 +1,57 @@
+.v-card__reveal {
+  bottom: 0 !important;
+  opacity: 1 !important;
+  position: absolute !important;
+  width: 100% !important;
+}
+
+.home__row {
+  padding: 30px !important;
+}
+.home__logo {
+  border-radius: 50%;
+  max-width: 20% !important;
+  max-height: 20% !important;
+  margin-bottom: -1rem !important;
+}
+.home__logo-header {
+  border-radius: 50%;
+  max-width: 3rem !important;
+  max-height: 4rem !important;
+}
+.home__logo-mini {
+  border-radius: 20%;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+.home__card {
+  border-radius: 10px !important;
+}
+.home__card-title-span {
+  color: cornflowerblue;
+}
+.home__card-title-span-bold {
+  font-weight: bold;
+}
+.home__card-title-about {
+  font-weight: bolder !important;
+}
+.home__card-title-text {
+  font-size: 1.1rem !important;
+}
+.home__card-title-icon {
+  text-decoration: none;
+  color: #6495ed !important;
+}
+.home__card-title-link {
+  text-decoration: none;
+  color: #6495ed !important;
+}
+.home__card-title-link:hover {
+  border-bottom: 1px solid #6495ed;
+}
+.home__card-body {
+  padding: 20px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
